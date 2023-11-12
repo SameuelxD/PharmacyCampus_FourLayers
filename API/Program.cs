@@ -9,21 +9,20 @@ var builder = WebApplication.CreateBuilder(args);
 // Add services to the container.
 
 builder.Services.AddControllers();
+// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen();
 
 /* Inyeccion de metodos de extension al contenedor de dependencias */
 builder.Services.ConfigureRatelimiting();
 builder.Services.AddAutoMapper(Assembly.GetEntryAssembly());
 builder.Services.ConfigureCors();
-//builder.Services.AddApplicationServices(); //Inject to ApplicationServices
-//builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddApplicationServices(); //Inject to ApplicationServices
 
 
 
 
 //app.UseAuthorization();
-// Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
-builder.Services.AddEndpointsApiExplorer();
-builder.Services.AddSwaggerGen();
 
 builder.Services.AddDbContext<PharmacyContext>(options =>
 {

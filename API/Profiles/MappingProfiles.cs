@@ -12,25 +12,78 @@ namespace API.Profiles
         {
             public MappingProfiles()
             {
-                CreateMap<AddressPerson,AddressPersonDto>().ReverseMap();
-                CreateMap<Bill,BillDto>().ReverseMap();
-                CreateMap<City,CityDto>().ReverseMap();
+                CreateMap<AddressPerson,AddressPersonDto>()
+                .ReverseMap();
+                
+                CreateMap<Bill,BillDto>()
+                .ReverseMap();
+                
+                CreateMap<City,CityDto>()
+                .ReverseMap()
+                .ForMember(o => o.AddressesPeople ,d => d.Ignore());
+                
                 CreateMap<ContactPerson,ContactPersonDto>().ReverseMap();
-                CreateMap<ContactType,ContactTypeDto>().ReverseMap();
-                CreateMap<Country,CountryDto>().ReverseMap();
-                CreateMap<Department,DepartmentDto>().ReverseMap();
-                CreateMap<DocumentType,DocumentTypeDto>().ReverseMap();
-                CreateMap<Inventory,InventoryDto>().ReverseMap();
-                CreateMap<InventoryManagement,InventoryManagementDto>().ReverseMap();
-                CreateMap<MovementDetail,MovementDetailDto>().ReverseMap();
-                CreateMap<MovementType,MovementTypeDto>().ReverseMap();
-                CreateMap<Person,PersonDto>().ReverseMap();
-                CreateMap<PersonRole,PersonRoleDto>().ReverseMap();
-                CreateMap<PersonType,PersonTypeDto>().ReverseMap();
-                CreateMap<PresentationType,PresentationTypeDto>().ReverseMap();
-                CreateMap<ProductBrand,ProductBrandDto>().ReverseMap();
-                CreateMap<Product,ProductDto>().ReverseMap();
-                CreateMap<PurchaseMethod,PurchaseMethodDto>().ReverseMap();
+                
+                CreateMap<ContactType,ContactTypeDto>()
+                .ReverseMap()
+                .ForMember(o => o.ContactPeople ,d => d.Ignore());
+
+                CreateMap<Country,CountryDto>()
+                .ReverseMap()
+                .ForMember(o => o.Departments ,d => d.Ignore());
+
+                CreateMap<Department,DepartmentDto>()
+                .ReverseMap()
+                .ForMember(o => o.Cities ,d => d.Ignore());
+
+                CreateMap<DocumentType,DocumentTypeDto>()
+                .ReverseMap()
+                .ForMember(o => o.People ,d => d.Ignore());
+
+                CreateMap<Inventory,InventoryDto>()
+                .ReverseMap()
+                .ForMember(o => o.MovementsDetails ,d => d.Ignore());
+
+                CreateMap<InventoryManagement,InventoryManagementDto>().ReverseMap()
+                .ForMember(o => o.MovementsDetails ,d => d.Ignore());
+
+                CreateMap<MovementDetail,MovementDetailDto>()
+                .ReverseMap();
+                
+                CreateMap<MovementType,MovementTypeDto>()
+                .ReverseMap()
+                .ForMember(o => o.InventoriesManagement ,d => d.Ignore());
+
+                CreateMap<Person,PersonDto>()
+                .ReverseMap()
+                .ForMember(o => o.AddressPeople ,d => d.Ignore())
+                .ForMember(o => o.ContactPeople ,d => d.Ignore())
+                .ForMember(o => o.InventoriesManagement ,d => d.Ignore());
+
+                CreateMap<PersonRole,PersonRoleDto>()
+                .ReverseMap()
+                .ForMember(o => o.People ,d => d.Ignore());
+
+                CreateMap<PersonType,PersonTypeDto>()
+                .ReverseMap()
+                .ForMember(o => o.People ,d => d.Ignore());
+
+                CreateMap<PresentationType,PresentationTypeDto>()
+                .ReverseMap()
+                .ForMember(o => o.Inventories ,d => d.Ignore());
+                
+                CreateMap<Product,ProductDto>()
+                .ReverseMap()
+                .ForMember(o => o.Inventories,d=>d.Ignore());
+
+
+                CreateMap<ProductBrand,ProductBrandDto>()
+                .ReverseMap()
+                .ForMember(o => o.Products ,d => d.Ignore());
+                
+                CreateMap<PurchaseMethod,PurchaseMethodDto>()
+                .ReverseMap()
+                .ForMember(o => o.InventoriesManagement ,d => d.Ignore());
                 
                 
             }
