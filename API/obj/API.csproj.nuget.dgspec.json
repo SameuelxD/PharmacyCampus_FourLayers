@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\APM02-48\\Documents\\PharmacyCampus_FourLayers\\API\\API.csproj": {}
+    "C:\\Users\\USER\\Documents\\PharmacyCampus_FourLayers\\API\\API.csproj": {}
   },
   "projects": {
-    "C:\\Users\\APM02-48\\Documents\\PharmacyCampus_FourLayers\\API\\API.csproj": {
+    "C:\\Users\\USER\\Documents\\PharmacyCampus_FourLayers\\API\\API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APM02-48\\Documents\\PharmacyCampus_FourLayers\\API\\API.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Documents\\PharmacyCampus_FourLayers\\API\\API.csproj",
         "projectName": "API",
-        "projectPath": "C:\\Users\\APM02-48\\Documents\\PharmacyCampus_FourLayers\\API\\API.csproj",
-        "packagesPath": "C:\\Users\\APM02-48\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APM02-48\\Documents\\PharmacyCampus_FourLayers\\API\\obj\\",
+        "projectPath": "C:\\Users\\USER\\Documents\\PharmacyCampus_FourLayers\\API\\API.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Documents\\PharmacyCampus_FourLayers\\API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\APM02-48\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -26,8 +26,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\APM02-48\\Documents\\PharmacyCampus_FourLayers\\Application\\Application.csproj": {
-                "projectPath": "C:\\Users\\APM02-48\\Documents\\PharmacyCampus_FourLayers\\Application\\Application.csproj"
+              "C:\\Users\\USER\\Documents\\PharmacyCampus_FourLayers\\Application\\Application.csproj": {
+                "projectPath": "C:\\Users\\USER\\Documents\\PharmacyCampus_FourLayers\\Application\\Application.csproj"
               }
             }
           }
@@ -96,21 +96,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\APM02-48\\Documents\\PharmacyCampus_FourLayers\\Application\\Application.csproj": {
+    "C:\\Users\\USER\\Documents\\PharmacyCampus_FourLayers\\Application\\Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APM02-48\\Documents\\PharmacyCampus_FourLayers\\Application\\Application.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Documents\\PharmacyCampus_FourLayers\\Application\\Application.csproj",
         "projectName": "Application",
-        "projectPath": "C:\\Users\\APM02-48\\Documents\\PharmacyCampus_FourLayers\\Application\\Application.csproj",
-        "packagesPath": "C:\\Users\\APM02-48\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APM02-48\\Documents\\PharmacyCampus_FourLayers\\Application\\obj\\",
+        "projectPath": "C:\\Users\\USER\\Documents\\PharmacyCampus_FourLayers\\Application\\Application.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Documents\\PharmacyCampus_FourLayers\\Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\APM02-48\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -122,11 +122,11 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\APM02-48\\Documents\\PharmacyCampus_FourLayers\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\APM02-48\\Documents\\PharmacyCampus_FourLayers\\Domain\\Domain.csproj"
+              "C:\\Users\\USER\\Documents\\PharmacyCampus_FourLayers\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\USER\\Documents\\PharmacyCampus_FourLayers\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\APM02-48\\Documents\\PharmacyCampus_FourLayers\\Persistence\\Persistence.csproj": {
-                "projectPath": "C:\\Users\\APM02-48\\Documents\\PharmacyCampus_FourLayers\\Persistence\\Persistence.csproj"
+              "C:\\Users\\USER\\Documents\\PharmacyCampus_FourLayers\\Persistence\\Persistence.csproj": {
+                "projectPath": "C:\\Users\\USER\\Documents\\PharmacyCampus_FourLayers\\Persistence\\Persistence.csproj"
               }
             }
           }
@@ -156,21 +156,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\APM02-48\\Documents\\PharmacyCampus_FourLayers\\Domain\\Domain.csproj": {
+    "C:\\Users\\USER\\Documents\\PharmacyCampus_FourLayers\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APM02-48\\Documents\\PharmacyCampus_FourLayers\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Documents\\PharmacyCampus_FourLayers\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\APM02-48\\Documents\\PharmacyCampus_FourLayers\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\APM02-48\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APM02-48\\Documents\\PharmacyCampus_FourLayers\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\USER\\Documents\\PharmacyCampus_FourLayers\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Documents\\PharmacyCampus_FourLayers\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\APM02-48\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -223,21 +223,21 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\APM02-48\\Documents\\PharmacyCampus_FourLayers\\Persistence\\Persistence.csproj": {
+    "C:\\Users\\USER\\Documents\\PharmacyCampus_FourLayers\\Persistence\\Persistence.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\APM02-48\\Documents\\PharmacyCampus_FourLayers\\Persistence\\Persistence.csproj",
+        "projectUniqueName": "C:\\Users\\USER\\Documents\\PharmacyCampus_FourLayers\\Persistence\\Persistence.csproj",
         "projectName": "Persistence",
-        "projectPath": "C:\\Users\\APM02-48\\Documents\\PharmacyCampus_FourLayers\\Persistence\\Persistence.csproj",
-        "packagesPath": "C:\\Users\\APM02-48\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\APM02-48\\Documents\\PharmacyCampus_FourLayers\\Persistence\\obj\\",
+        "projectPath": "C:\\Users\\USER\\Documents\\PharmacyCampus_FourLayers\\Persistence\\Persistence.csproj",
+        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\USER\\Documents\\PharmacyCampus_FourLayers\\Persistence\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\APM02-48\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
@@ -249,8 +249,8 @@
           "net7.0": {
             "targetAlias": "net7.0",
             "projectReferences": {
-              "C:\\Users\\APM02-48\\Documents\\PharmacyCampus_FourLayers\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\APM02-48\\Documents\\PharmacyCampus_FourLayers\\Domain\\Domain.csproj"
+              "C:\\Users\\USER\\Documents\\PharmacyCampus_FourLayers\\Domain\\Domain.csproj": {
+                "projectPath": "C:\\Users\\USER\\Documents\\PharmacyCampus_FourLayers\\Domain\\Domain.csproj"
               }
             }
           }
@@ -290,7 +290,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.400\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.401\\RuntimeIdentifierGraph.json"
         }
       }
     }
